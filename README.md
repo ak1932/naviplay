@@ -1,4 +1,4 @@
-# Naviplay (Beta)
+# Naviplay (Alpha)
 
 A navidrome client for android.
 
