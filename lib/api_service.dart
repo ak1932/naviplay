@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 class DioClient {
   final Dio _dio = Dio();
   Future<Response?> getRequest(Uri url) async {
+    print(url);
     Response? response;
     try {
       response = await _dio.getUri(url);

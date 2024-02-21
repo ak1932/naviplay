@@ -4,7 +4,7 @@ import 'package:crypto/crypto.dart';
 
 class Api {
     static String u = 'ak';
-    static String p = '\'';
+    static String p = 'a!Md2@Rm#3Zb&Y#';
     static String s = 'navidrome';
     static String c = 'navidrome';
     static String v = '1.16.1';
@@ -13,14 +13,15 @@ class Api {
 
     static Map<String,String> auth = {'u': u, 's': s, 't': t, 'f': f, 'c': c, 'v': v};
 
-    static String baseUrl = '192.168.1.42:4533';
-    static String getAlbumList = '/rest/getAlbumList';
-    static String getArtist = '/rest/getArtist';
-    static String getCoverArt = '/rest/getCoverArt';
-    static String getAlbum = '/rest/getAlbum';
-    static String stream = '/rest/stream';
-    static String search = '/rest/search3';
-    static String getPlaylists = '/rest/getPlaylists';
-    static String star = '/rest/star';
-    static String unstar = '/rest/unstar';
+    static String baseUrl = 'ak1932-pi';
+    static String music = '/music/rest';
+    static String getAlbumList = '$music/getAlbumList';
+    static String getArtist = '$music/getArtist';
+    static String getCoverArt = '$music/getCoverArt';
+    static String getAlbum = '$music/getAlbum';
+    static String stream = '$music/stream';
+    static String search = '$music/search3';
+    static String getPlaylists = '$music/getPlaylists';
+    static String star = '$music/star';
+    static String unstar = '$music/unstar';
 }
