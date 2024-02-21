@@ -6,4 +6,4 @@ Should "just work" for subsonic servers as well though not tested.
 
 ## Screenshots
 
-![[./ss/homepage]]
+![[ss/homepage]]
